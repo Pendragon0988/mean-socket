@@ -1,11 +1,11 @@
 
-var app = angular.module('chatApp', []);
+angular.module('chatApp', [])
 
-app.factory('socket', function(){
+.factory('socket', function(){
 	return io.connect('http://localhost:8000')
-});
+})
 
-app.controller('ChatCtrl', ['$scope', 'socket', function($scope, socket){
+.controller('ChatCtrl', ['$scope', 'socket', function($scope, socket){
 	console.log("Init controller")
 
 	$scope.messages = []

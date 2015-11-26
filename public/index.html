@@ -6,7 +6,7 @@
 	<body ng-controller="ChatCtrl">
 		<h1>Awesome Chat App</h1>
 		<ul>
-			<li ng-repeat="message in messages track by $index">{{message}}</li>
+			<li ng-repeat="message in messages track by $index" ng-bind="message"></li>
 		</ul>
 		<form ng-submit="sendMessage()">
 			<input ng-model="message.txt">
