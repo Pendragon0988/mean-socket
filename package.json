@@ -1,0 +1,22 @@
+{
+  "name": "boring-mean-chat",
+  "version": "0.0.1",
+  "description": "MEAN Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MEAN",
+    "SOCKET"
+  ],
+  "author": "Brian Matthew Mamaril",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongoose": "^4.2.7",
+    "path": "^0.12.7",
+    "siege": "^0.1.2",
+    "socket.io": "^1.3.7"
+  }
+}
